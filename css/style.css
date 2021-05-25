@@ -1,0 +1,42 @@
+/* // part4 */
+/* body{
+    cursor: none;
+}
+.test
+{
+    width:50px;
+    height:50px;
+    position: absolute;
+} */
+/* part 5&6 */
+.layer{
+    width:80%;
+    height:100px;
+    bottom:50px;
+    left:10%;
+}
+.content{
+    cursor: pointer;
+}
+#lightBoxContainer{
+    display:none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(0,0, 0, 0.5);
+}
+#lightBoxItem{
+   width:50%;
+   height: 600px; 
+   
+   background-size: cover;
+}
+#close{
+    top:20px;
+    right:20px
+}
+#lightBoxItem i{
+cursor: pointer;
+}
